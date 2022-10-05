@@ -1,7 +1,7 @@
 /*========== FOOTER START ==========*/
 #footer {
     width: 100%;
-    background-color: greenyellow;
+    background-color: var(--color-one);
 }
 
 #footer p {
