@@ -1,0 +1,52 @@
+/*--========== BENEFICIOS START ==========*/
+#beneficios {
+    background-color: var(--bg-color-two);
+}
+
+.beneficios-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.beneficios-card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: solid 3px var(--color-one);
+    color: var(--color-one);
+}
+
+.beneficios-card img {
+    width: 70px;
+}
+
+.beneficios-card h3 {
+    color: var(--color-two);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-regular);
+}
+
+/*--========== BENEFICIOS END ==========*/
+
+/*--========== BENEFICIOS RESPONSIVE ==========*/
+@media (max-width: 950px) {
+    .beneficios-card {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .beneficios-card img {
+        width: 30%;
+    }
+}

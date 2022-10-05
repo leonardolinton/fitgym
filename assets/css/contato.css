@@ -1,0 +1,82 @@
+/*========== CONTATO START ==========*/
+#contato {
+    width: 100%;
+}
+
+.contato-box-form {
+    width: 50%;
+    margin-top: 25px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-row-01,
+.form-row-02 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-row-01 input,
+.form-row-02 input {
+    width: 49.5%;
+}
+
+.form-row-03 textarea {
+    width: 100%;
+    resize: none;
+}
+
+.form-row-01 input,
+.form-row-02 input,
+.form-row-03 textarea {
+    margin: 5px 0;
+    outline: none;
+    padding: 5px;
+    font-size: var(--f1-font-size);
+    border: solid 2px transparent;
+}
+
+.form-row-01 input:focus,
+.form-row-02 input:focus,
+.form-row-03 textarea:focus {
+    border: solid 2px var(--color-one);
+}
+
+.form-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-btn button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 15px;
+    background-color: var(--color-one);
+    border: solid 2px var(--color-one);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-btn button:hover {
+    background-color: var(--bg-color);
+    color: var(--color-one);
+}
+
+/*========== CONTATO END ==========*/
+
+/*========== CONTATO RESPONSIVE ==========*/
+@media (max-width: 950px) {
+    .contato-box {
+        text-align: center;
+    }
+
+    .contato-box-form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--========== FAVICON ==========-->
+  <link rel="icon" type="imagem/png" href="./assets/img/logo.png " />
+  <!--========== STYLE CSS ==========-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="stylesheet" href="./assets/css/sobre.css">
+  <link rel="stylesheet" href="./assets/css/beneficios.css">
+  <link rel="stylesheet" href="./assets/css/planos.css">
+  <link rel="stylesheet" href="./assets/css/prof.css">
+  <link rel="stylesheet" href="./assets/css/calculadora.css">
+  <link rel="stylesheet" href="./assets/css/contato.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <!--========== AOS ANIMATE SCROLL ==========-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--========== SWIPER CSS LINK==========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <!--========== ION ICON ==========-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--========== TITLE ==========-->
+  <title>FitGym</title>
+</head>
+
+<body>
+  <!--========== MENU START ==========-->
+  <header id="header">
+    <nav id="nav">
+      <a href="./index.html"><img id="logo" src="./assets/img/logo.png">FitGym</a>
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#prof">Professores</a></li>
+        <li class="menu-btn"><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--========== MENU END ==========-->
+
+  <!--========== MAIN START ==========-->
+  <main class="main">
+    <!--========== HOME START =========-->
+    <section id="home">
+      <div class="home-box container">
+
+        <div class="home-box-left" data-aos="fade-down" data-aos-duration="2000">
+          <h1>VAMOS <span>CONSTRUIR</span><br>SEU CORPO</h1>
+          <p>Aqui nós vamos ajudá-lo a moldar e construir seu corpo ideal,<br>para você viver sua vida ao máximo.</p>
+          <button>MATRICULA</button>
+        </div>
+
+        <div class="home-box-right" data-aos="fade-up" data-aos-duration="2000">
+          <img src="./assets/img/banner.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="home-box-color"></div>
+    </section>
+    <!--========== HOME END =========-->
+
+    <!--========== BENEFICIOS START =========-->
+    <section id="beneficios">
+      <div class="beneficios-box container">
+        <span>POR QUE NOS ESCOLHER?</span>
+        <h2>AUMENTE SEUS LIMITES</h2>
+        <div class="beneficios-cards">
+
+          <div class="beneficios-card" data-aos="fade-down" data-aos-duration="1000">
+            <img src="/assets/img/bycicle.png" alt="equipamento de musculação">
+            <h3>Equipamentos modernos</h3>
+          </div>
+
+          <div class="beneficios-card" data-aos="fade-down" data-aos-duration="1500">
+            <img src="./assets/img/dieta-alimentar.png" alt="dieta alimentar">
+            <h3>Plano de alimentação</h3>
+          </div>
+
+          <div class="beneficios-card" data-aos="fade-down" data-aos-duration="2000">
+            <img src="./assets/img/haltere.png" alt="">
+            <h3>Plano de Treinamento</h3>
+          </div>
+
+          <div class="beneficios-card" data-aos="fade-down" data-aos-duration="2500">
+            <img src="./assets/img/cuidados-de-saude.png" alt="">
+            <h3>Acompanhamento médico</h3>
+          </div>
+
+          <div class="beneficios-card" data-aos="fade-down" data-aos-duration="3000">
+            <img src="./assets/img/proteina.png" alt="">
+            <h3>Descontos nas lojas afiliadas</h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--========== BENEFICIOS END =========-->
+
+    <!--========== SOBRE START=========-->
+    <section id="sobre">
+      <div class="sobre-box container">
+        <div class="sobre-box-left">
+          <img src="./assets/img/sobre-img.png" alt="" data-aos="fade-right" data-aos-duration="2000">
+        </div>
+
+        <div class="sobre-box-right" data-aos="fade-left" data-aos-duration="2000">
+          <span>SOBRE NÓS</span>
+          <h2>A MELHOR PARA VOCÊ!</h2>
+          <div class="sobre-box-right-txt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempore quis officiis, quidem sequi
+              itaque ut laudantium repellat quisquam provident similique omnis recusandae, quas voluptates velit saepe.
+              Ad, optio dolorem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae obcaecati
+              expedita illum nesciunt quo nisi vel ex illo sapiente eum minima dolores possimus cum magnam a adipisci
+              qui, cupiditate fugiat.
+            </p>
+            <button class="sobre-box-right-btn">
+              <a href="#planos">
+                PLANOS
+                <ion-icon name="arrow-forward-sharp"></ion-icon>
+              </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="sobre-box-color"></div>
+    </section>
+    <!--========== SOBRE END=========-->
+
+    <!--========== PLANOS START ==========-->
+    <section id="planos">
+      <div class="planos-box container">
+        <span>NOSSOS PLANOS</span>
+        <h2>ESCOLHA SEU PLANO</h2>
+
+        <div class="planos-box-cards" data-aos="fade-down" data-aos-duration="2000">
+
+          <div class="planos-box-card">
+            <div class="planos-box-card-txt">
+              <h3>BASIC</h3>
+              <p>R$ 39,00</p>
+              <h4>MENSAL</h4>
+              <ul>
+                <li>Matrícula grátis</li>
+                <li>Equipamentos ilimitados</li>
+                <li>Treinador pessoal</li>
+                <li>Aulas de emagrecimento online</li>
+                <li>Month to mouth</li>
+                <li>Sem restrição de tempo</li>
+              </ul>
+              <button>CONTRATAR</button>
+            </div>
+          </div>
+
+          <div class="planos-box-card">
+            <div class="planos-box-card-txt">
+              <h3>PREMIUM</h3>
+              <p>R$ 99,00</p>
+              <h4>12 MESES</h4>
+              <ul>
+                <li>Matrícula grátis</li>
+                <li>Equipamentos ilimitados</li>
+                <li>Treinador pessoal</li>
+                <li>Aulas de emagrecimento online</li>
+                <li>Month to mouth</li>
+                <li>Sem restrição de tempo</li>
+                <li>1 Camiseta grátis a cada semestre</li>
+                <li>Avaliação física trimestral</li>
+                <li>Consultas grátis com nutricionista</li>
+                <li>3 aulas semanais de sua escolha</li>
+                <li>Descontos na loja de suplementação da rede</li>
+              </ul>
+              <button>CONTRATAR</button>
+            </div>
+          </div>
+
+          <div class="planos-box-card">
+            <div class="planos-box-card-txt">
+              <h3>ESSENCIAL</h3>
+              <p>R$ 59,00</p>
+              <h4>6 MESES</h4>
+              <ul>
+                <li>Matrícula grátis</li>
+                <li>Equipamentos ilimitados</li>
+                <li>Treinador pessoal</li>
+                <li>Aulas de emagrecimento online</li>
+                <li>Month to mouth</li>
+                <li>Sem restrição de tempo</li>
+                <li>1 Camiseta grátis a cada semestre</li>
+                <li>Avaliação física trimestral</li>
+              </ul>
+              <button>CONTRATAR</button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+    <!--========== PLANOS END ==========-->
+
+    <!--========== PROFESSORES START =========-->
+    <section id="prof">
+      <div class="prof-box container">
+        <span>NOSSO TIME</span>
+        <h2>TREINE COM OS MELHORES</h2>
+
+        <!-- SWIPER -->
+        <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="3000">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/01.png" alt="professor">
+              <div class="card-txt">
+                <h3>FELIPE</h3>
+                <p>MUSCULAÇÃO</p>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/02.png" alt="professor">
+              <div class="card-txt">
+                <h3>PEDRO</h3>
+                <p>CROSSFIT</p>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/03.png" alt="professor">
+              <div class="card-txt">
+                <h3>THAIS</h3>
+                <p>JUMP</p>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/04.png" alt="professor">
+              <div class="card-txt">
+                <h3>ANA</h3>
+                <p>MUSCULAÇÃO</p>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/05.png" alt="professor">
+              <div class="card-txt">
+                <h3>RAFAELA</h3>
+                <p>CROSFIT</p>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/06.png" alt="professor">
+              <div class="card-txt">
+                <h3>CAIO</h3>
+                <p>CROSSFIT</p>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!--========== PROFESSORES END =========-->
+
+    <!--========== CALCULADORA START ==========-->
+    <section id="calc">
+      <div class="calc-box container">
+        <div class="calc-box-left" data-aos="fade-down" data-aos-duration="2000">
+          <span>CALCULADORA</span>
+          <h2>DESCUBRA SEU IMC</h2>
+          <p>
+            A calculadora do índice de massa corporal (IMC). Calcule
+            o seu índice de massa corporal a partir do seu peso e altura
+          </p>
+          <div class="calc-box-left-calc">
+            <div class="divAltura">
+              <label for="altura">ALTURA (M)</label>
+              <input type="number" id="altura" placeholder="1,50" min="0">
+            </div>
+
+            <div class="divPeso">
+              <label for="peso">PESO (KG)</label>
+              <input type="number" id="peso" placeholder="50" min="0">
+            </div>
+
+            <div class="divCalc">
+              <button onclick="calcIMC()">CALCULAR</button>
+            </div>
+
+            <span id="resultado"></span>
+
+          </div>
+        </div>
+        <div class="calc-box-right" data-aos="fade-up" data-aos-duration="2000">
+          <img src="./assets/img/calculadora-img.png" alt="imagem de modelo negra">
+        </div>
+
+      </div>
+      <div class="calc-box-color"></div>
+    </section>
+    <!--========== CALCULADORA END ==========-->
+
+    <!--========== CONTATO END ==========-->
+    <section id="contato">
+
+      <div class="contato-box container">
+        <span>ENTRE EM CONTATO</span>
+        <h2>TIRE TODAS AS SUAS DUVIDAS</h2>
+
+        <div class="contato-box-form" data-aos="fade-down" data-aos-duration="3000">
+          <form class="formulario" autocomplete="off">
+
+            <div class="form-row-01">
+              <input type="text" id="nome" name="usuario_nome" placeholder="NOME" />
+              <input type="text" id="sobrenome" name="usuario_sobrenome" placeholder="SOBRENOME" />
+            </div>
+            <div class="form-row-02">
+              <input type="email" id="email" name="usuario_email" placeholder="EMAIL" />
+              <input type="telefone" id="telefone" name="usuario_telefone" placeholder="TELEFONE" />
+            </div>
+            <div class="form-row-03">
+              <label for="msg"></label>
+              <textarea class="msg" placeholder="MENSAGEM..." rows="8"></textarea>
+            </div>
+
+            <div class="form-btn">
+              <button type="submit">ENVIAR<ion-icon name="send-sharp"></ion-icon></button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+    <!--========== CONTATO END ==========-->
+  </main>
+
+  <!--========== MAIN END ==========-->
+
+  <!--========== FOOTER START ==========-->
+  <footer id="footer">
+
+    <div class="footer-box">
+      <div class="footer-left">
+
+        <img src="./assets/img/logo.png" alt="logo da GymFit">FitGym
+
+      </div>
+
+      <div class="footer-center">
+
+        <div class="footer-center-icon">
+          <ion-icon name="location-sharp"></ion-icon>
+          <p>RUA GUAIUBA 35 - ACARI, RIO DE JANEIRO</p>
+        </div>
+
+        <div class="footer-center-icon">
+          <ion-icon name="call-sharp"></ion-icon>
+          <p>(21) 91111-9999</p>
+        </div>
+
+        <div class="footer-center-icon">
+          <ion-icon name="mail-sharp"></ion-icon>
+          <p>SUPPORT@FITGYM.COM</p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <span>SIGA NOSSAS REDES</span>
+
+        <div class="footer-right-icons">
+
+          <a href="/">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+
+          <a href="/">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="/">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+
+          <a href="/">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+    <p class="footer_copy"><a href="https://leonardolinton.github.io/portfolio/" target="_blank">Copyright © 2022 |
+        Criado por Leonardo
+        Linton</a></p>
+  </footer>
+  <!--========== FOOTER END ==========-->
+
+  <!--========== JAVASCRIPT START==========-->
+  <script src="./assets/js/header.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--============ SWIPER JS ============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/swiper.js"></script>
+
+  <!--========== CALCULADORA DE IMC ==========-->
+  <script src="./assets/js/calculadora.js"></script>
+</body>
+
+</html>

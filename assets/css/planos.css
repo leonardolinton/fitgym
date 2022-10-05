@@ -1,0 +1,88 @@
+/*========== PLANOS START ==========*/
+#planos {
+    background-color: var(--bg-color-two);
+    color: var(--color-two);
+}
+
+.planos-box-cards {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.planos-box-card {
+    width: 350px;
+    padding: 30px;
+    margin: 10px;
+    border: solid 2px var(--color-one);
+    transition: 0.3s;
+    transform: skewY(-5deg);
+}
+
+.planos-box-card-txt {
+    text-align: center;
+    transform: skewY(5deg);
+}
+
+.planos-box-card-txt h3 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
+}
+
+.planos-box-card-txt h4 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semibold);
+}
+
+.planos-box-card-txt p {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semibold);
+}
+
+.planos-box-card-txt ul {
+    margin-top: 20px;
+    font-size: var(--f1-font-size);
+}
+
+.planos-box-card-txt li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.planos-box-card-txt button {
+    margin-top: 25px;
+    padding: 10px 30px;
+    font-size: var(--f1-font-size);
+    font-weight: var(--font-medium);
+    background-color: var(--color-two);
+    cursor: pointer;
+}
+
+.planos-box-card:hover {
+    background-color: var(--color-one);
+    color: var(--bg-color-two);
+}
+
+.planos-box-card:hover .planos-box-card-txt button {
+    background-color: var(--bg-color-two);
+    color: var(--color-one);
+}
+
+/*========== PLANOS END ==========*/
+
+/*========== PLANOS RESPONSIVE ==========*/
+@media (max-width: 950px) {
+    .planos-box-cards {
+        margin-top: 25px;
+        gap: 10px;
+    }
+    .planos-box-card {
+        width: 300px;
+        margin: 10px;
+    }
+}
