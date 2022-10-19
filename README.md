@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://leonardolinton.github.io/fitgym/">FitGym</a></h1>
+<h1 align="center">💪<a href="https://leonardolinton.github.io/fitgym/">FitGym</a>💪</h1>
 
 ![preview!](./assets/img/preview.png)
 
