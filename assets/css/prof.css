@@ -1,11 +1,15 @@
 /*========== PROF START ==========*/
 #prof {
-    max-width: 1200px;
     margin: 0 auto;
+    background-image: url(../img/bkg-prof.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .prof-box {
-    width: 90%;
+    max-width: 1200px;
     display: flex;
     align-items: center;
 }
@@ -53,6 +57,7 @@
 
 .swiper-slide:hover {
     border: solid 3px var(--color-one);
+    box-shadow: 0px 0px 25px 5px var(--color-one);
 }
 
 .swiper-slide ion-icon {
