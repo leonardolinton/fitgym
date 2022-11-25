@@ -1,6 +1,6 @@
 <h1 align="center">💪<a href="https://leonardolinton.github.io/fitgym/">FitGym</a>💪</h1>
 
-![preview!](https://user-images.githubusercontent.com/109364804/204030887-040f50ab-7434-4d5f-a3e5-7770b0aecab6.png)
+![preview!](https://user-images.githubusercontent.com/109364804/204043829-1dc0ba84-1093-4967-ab3f-978385b5fa2c.png)
 
 <h2>Seções</h2>
 
