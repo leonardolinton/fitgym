@@ -59,6 +59,7 @@ button {
 
 .calc-box-left-calc input:focus {
     border: solid 2px var(--color-one);
+    box-shadow: 0px 0px 10px 1.5px var(--color-one);
 }
 
 .calc-box-left-calc button {
@@ -66,6 +67,11 @@ button {
     background-color: var(--color-one);
     border: solid 3px transparent;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.calc-box-left-calc button:hover {
+    box-shadow: 0px 0px 8px 2px var(--color-one);
 }
 
 .calc-box-left-calc button:active {
