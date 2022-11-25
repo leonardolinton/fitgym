@@ -5,7 +5,7 @@
     overflow: hidden;
     background-image: url(../img/bkg-home.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center bottom;
     background-attachment: fixed;
 }
@@ -40,13 +40,6 @@
     color: var(--color-two);
     line-height: 100%;
     margin: 50px 0;
-}
-
-.home-box hr {
-    height: 1.5px;
-    width: 10vw;
-    margin-bottom: 50px;
-    background-color: var(--color-one);
 }
 
 .home-box button {
