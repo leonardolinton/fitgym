@@ -78,7 +78,7 @@ section {
 /*1rem = 16px*/
 
 :root {
-  --h1-font-size: 6rem;
+  --h1-font-size: 8rem;
   --h2-font-size: 3rem;
   --h3-font-size: 2rem;
   --h4-font-size: 1.7rem;
@@ -101,7 +101,7 @@ section {
   /*========== COLORS ==========*/
   --bg-color: #0a0a0a;
   --bg-color-two: #1a1a1a;
-  --color-one: #adff2f;
+  --color-one: #60c54e;
   --color-two: #fff;
   --color-three: #505050;
 
