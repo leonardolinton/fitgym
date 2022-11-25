@@ -12,9 +12,10 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    background-color: var(--bg-color);
+    background-color: rgba(0, 0, 0, 0.829);
     position: fixed;
     z-index: 1000;
+    box-shadow: 0 0 10px var(--color-one);
 }
 
 #nav {
@@ -57,6 +58,7 @@
     text-decoration: none;
     color: var(--bg-color);
     background-color: var(--color-one);
+    box-shadow: 0px 0px 25px 5px var(--color-one);
 }
 
 #menu .menu-btn a {
