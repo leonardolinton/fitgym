@@ -45,6 +45,7 @@
 .form-row-02 input:focus,
 .form-row-03 textarea:focus {
     border: solid 2px var(--color-one);
+    box-shadow: 0px 0px 10px 1.5px var(--color-one);
 }
 
 .form-btn {
@@ -64,8 +65,9 @@
 }
 
 .form-btn button:hover {
-    background-color: var(--bg-color);
+    background-color: transparent;
     color: var(--color-one);
+    box-shadow: 0px 0px 25px 5px var(--color-one);
 }
 
 /*========== CONTATO END ==========*/
