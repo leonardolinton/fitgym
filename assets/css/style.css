@@ -78,7 +78,7 @@ section {
 /*1rem = 16px*/
 
 :root {
-  --h1-font-size: 11rem;
+  --h1-font-size: 10rem;
   --h2-font-size: 3rem;
   --h3-font-size: 2rem;
   --h4-font-size: 1.7rem;
