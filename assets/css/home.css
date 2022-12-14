@@ -23,7 +23,7 @@
     max-width: 70%;
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
-    line-height: 100%;
+    line-height: 85%;
     color: transparent;
     -webkit-text-stroke: 5px var(--color-one);
 }
